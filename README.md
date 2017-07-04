@@ -6,9 +6,9 @@ This application calls the Reddit API to retrieve the top post from five differe
  
  
 <b>Notes:</b>
-  - Requirements simply asked for the application to retrieve the “top” post. I interpreted this to mean the post returned by /top for a given subreddit in the API, i.e. the post you’d see if you went into the subreddit and selected “top” and “past 24 hours.” 
+  - Requirements asked for the application to retrieve the “top” post. I interpreted this to mean the post returned by /top for a given subreddit in the API, i.e. the post you’d see if you went into the subreddit and selected “top” and “past 24 hours.” 
   - Requirements requested a count of downvotes. Unfortunately, Reddit no longer publicizes downvote counts; they can only be    approximated based on upvote count and upvote-downvote ratio. Making this approximation requires an additional API call, and I figured it was probably out of the scope of the project. Downvote counts will be displayed as zero, which is what the API returns.
-  - Requirements requested “resource URL or content.” Since a post can have a URL and/or content (“self text”), these are two separate fields in the returned JSON.
+  - Requirements requested “resource URL or content.” Since a post can have a URL <i>and/or</i> content (“self text”), these are two separate fields in the returned JSON.
 
 
 Hopefully JSON fields have intuitive names, but just in case:
