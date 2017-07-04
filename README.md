@@ -2,7 +2,7 @@
 Emily Wallen<br/>
 July 3, 2017
  
-This application calls the Reddit API to retrieve the top post from five different subreddits simultaneously. It would be trivial to configure the application to work with user-determined subreddits, but for this proof of concept I have chosen r/aww, r/askScience, r/worldnews, r/programming, and r/food. To retrieve the five top posts, simply visit /getRedditPosts.
+This application calls the Reddit API to retrieve the top post from five different subreddits simultaneously. It would be trivial to configure the application to work with user-determined subreddits, but for this proof of concept I have chosen <b>r/aww</b>, <b>r/askScience</b>, <b>r/worldnews</b>, <b>r/programming</b>, and <b>r/food</b>. To retrieve the five top posts, simply visit <b>/getRedditPosts</b>.
  
  
 <b>Notes:</b>
